@@ -1,0 +1,14 @@
+What is inheritance and why is it important?
+
+Inheritance is a procedure in which genetic information is given from 
+parent to child. Inheritance defines in some way, how genetic material is 
+given on from parent to child.
+For example, this part of the code (the main) it is using the attributes 
+from the method "Cast()" and "Actor()" classes to create the banner, and on 
+the other hand, the robot. And this is just an example, in fact, all the game
+ is constructed on the base of this concept...
+Here I attached the screenshot:
+(example-1.png)
+Why is it important? Well, it provides code reusability. You don´t have to 
+necessarily write the same code or functions again and again, you can just 
+simply inherit the properties of one class into the other.
