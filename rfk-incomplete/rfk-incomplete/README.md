@@ -33,4 +33,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* # TODO: Add your name and email here
+* # Melanie Cristeche: cri21012@byui.edu
