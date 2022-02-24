@@ -1,3 +1,7 @@
+import random
+from game.shared.point import Point
+
+
 class Director:
     """A person who directs the game. 
     
@@ -59,7 +63,12 @@ class Director:
         for artifact in artifacts:
             if robot.get_position().equals(artifact.get_position()):
                 message = artifact.get_message()
-                banner.set_text(message)    
+                banner.set_text(message)   
+                # x = random.randint(1, 60 - 2)
+                # y = random.randint(1, 40 - 2)
+                # position = Point(x, y)
+                # position = position.scale(15)
+                # artifact.set_position(position) 
         
     def _do_outputs(self, cast):
         """Draws the actors on the screen.
