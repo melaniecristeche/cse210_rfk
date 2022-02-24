@@ -9,7 +9,7 @@ class Artifact(Actor):
         self._message = ""
 
     def get_message(self):
-        """Gets the artifact's message.
+        """Reach the artifact's message.
         
         Returns:
             string: The message.
@@ -17,9 +17,9 @@ class Artifact(Actor):
         return self._message
     
     def set_message(self, message):
-        """Updates the message to the given one.
+        """Updates the message to the provided one.
         
         Args:
-            message (string): The given message.
+            message (string): The provided message.
         """
         self._message = message
